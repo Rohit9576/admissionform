@@ -1,0 +1,17 @@
+.p-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-btn {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.2rem 2rem;
+    font-size: 1rem;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    color: #0eb582;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 10rem;
+}
