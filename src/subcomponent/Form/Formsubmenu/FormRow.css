@@ -1,0 +1,105 @@
+ /* Form */
+ form.student-form {
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 0.75rem;
+    color: #666;
+  }
+  form.student-form .form-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  form.student-form label {
+    width: 112px;
+    min-width: 112px;
+    font-weight: 500;
+    user-select: none;
+  }
+  form.student-form label span.required {
+    color: #d32f2f;
+    margin-left: 2px;
+  }
+  form.student-form input[type="text"],
+  form.student-form select,
+  form.student-form textarea {
+    flex: 1;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-size: 0.75rem;
+    color: #666;
+    font-family: inherit;
+  }
+  form.student-form input[readonly] {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+  form.student-form textarea {
+    resize: none;
+    background-color: #e6efef;
+    min-height: 40px;
+  }
+  form.student-form select {
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3csvg%20width%3d%2210%22%20height%3d%227%22%20viewBox%3d%220%200%2010%207%22%20fill%3d%22none%22%20xmlns%3d%22http%3a//www.w3.org/2000/svg%22%3e%3cpath%20d%3d%22M1%201L5%206L9%201%22%20stroke%3d%22%23666%22%20stroke-width%3d%222%22/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 10px 7px;
+    cursor: pointer;
+  }
+  form.student-form .place-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  form.student-form .place-row select {
+    flex: 1;
+  }
+  form.student-form .place-row button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  form.student-form .buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  form.student-form .buttons button {
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    color: white;
+    transition: background-color 0.2s;
+  }
+  form.student-form .buttons button.save-btn {
+    background-color: #2563eb;
+  }
+  form.student-form .buttons button.save-btn:hover {
+    background-color: #1e40af;
+  }
+  form.student-form .buttons button.cancel-btn {
+    background-color: #d32f2f;
+  }
+  form.student-form .buttons button.cancel-btn:hover {
+    background-color: #9a1f1f;
+  }

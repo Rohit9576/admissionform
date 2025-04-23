@@ -1,0 +1,81 @@
+ /* Tabs */
+ nav.tabs {
+   display: flex;
+   gap: 6px;
+   margin-left: 5rem;
+   margin-bottom: 24px;
+   font-size: 0.75rem;
+   font-weight: 600;
+   color: #333;
+   flex-wrap: wrap;
+ }
+
+ nav.tabs button {
+   background-color: white;
+   border: 1px solid #d1d5db;
+   border-radius: 4px;
+   padding: 6px 25px;
+   cursor: pointer;
+   white-space: nowrap;
+   transition: background-color 0.2s;
+ }
+
+ nav.tabs button.active {
+   background-color: #e6e9e8;
+   color: #333;
+   cursor: default;
+ }
+
+ nav.tabs button:hover:not(.active) {
+   background-color: #f3f4f6;
+ }
+
+
+ div .button {
+   background-color: #d32f2f;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   padding: 6px 12px;
+   font-weight: 600;
+   font-size: 0.75rem;
+   cursor: pointer;
+   user-select: none;
+   flex-shrink: 0;
+   line-height: 1;
+ }
+
+ div .buttons {
+   display: flex;
+   justify-content: flex-end;
+   gap: 8px;
+   margin-top: 16px;
+ }
+
+ div .buttons button {
+   border: none;
+   border-radius: 4px;
+   padding: 6px 16px;
+   font-weight: 600;
+   font-size: 0.75rem;
+   cursor: pointer;
+   user-select: none;
+   color: white;
+   transition: background-color 0.2s;
+ }
+
+ div .buttons button.save-btn {
+   background-color: #2563eb;
+ }
+
+ div .buttons button.save-btn:hover {
+   background-color: #1e40af;
+ }
+
+ div .buttons button.cancel-btn {
+   background-color: #d32f2f;
+ }
+
+ div .buttons button.cancel-btn:hover {
+   background-color: #9a1f1f;
+ }
